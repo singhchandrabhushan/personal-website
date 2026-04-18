@@ -1,0 +1,14 @@
+
+class car:
+    def __init__(self,color,size,company):
+        self.color = "blue"
+        self.size = "23ft"
+        self.company = "Toyota"
+    
+    def dataofcar(self,color,size,company):
+        print(self.color)
+        print(self.size)
+        print(self.company)
+        
+obj1 = car()
+print(obj1)
